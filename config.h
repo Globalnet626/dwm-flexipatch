@@ -1101,7 +1101,8 @@ static Key keys[] = {
 	{ 0,                       XF86XK_AudioRaiseVolume, spawn, {.v = upvol   } },
 	{ 0,                       XF86XK_MonBrightnessUp, spawn, SHCMD("xbacklight -inc 10") },
 	{ 0,                       XF86XK_MonBrightnessDown, spawn, SHCMD("xbacklight -dec 10") },	
-	{ 0,                       XK_Print, spawn, SHCMD("scrotxclip.sh") },	
+	{ 0,                       XK_Print, spawn, SHCMD("scrotxclip.sh") },
+	{ MODKEY,                       XK_Print, spawn, SHCMD("scrotxcliparea.sh") },	
 	TAGKEYS(                        XK_1,                                  0)
 	TAGKEYS(                        XK_2,                                  1)
 	TAGKEYS(                        XK_3,                                  2)
