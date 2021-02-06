@@ -23,7 +23,7 @@ FREETYPEINC = /usr/include/freetype2
 #KVMLIB = -lkvm
 
 # Uncomment this for the alpha patch / BAR_ALPHA_PATCH
-#XRENDER = -lXrender
+XRENDER = -lXrender
 
 # Uncomment this for the mpdcontrol patch / MPDCONTROL_PATCH
 #MPDCLIENT = -lmpdclient
@@ -37,7 +37,7 @@ FREETYPEINC = /usr/include/freetype2
 #YAJLINC = -I/usr/include/yajl
 
 # Uncomment this for the rounded corners patch / ROUNDED_CORNERS_PATCH
-#XEXTLIB = -lXext
+XEXTLIB = -lXext
 
 # Uncomment this for the swallow patch / SWALLOW_PATCH
 #XCBLIBS = -lX11-xcb -lxcb -lxcb-res
@@ -53,7 +53,7 @@ CFLAGS   = -std=c99 -pedantic -Wall -Wno-deprecated-declarations -Os ${INCS} ${C
 LDFLAGS  = ${LIBS}
 
 # Solaris
-#CFLAGS = -fast ${INCS} -DVERSION=\"${VERSION}\"
+#CFLAGS = -fast ${INCS} -DVERSION=\"${VERSALPHAION}\"
 #LDFLAGS = ${LIBS}
 
 # compiler and linker
