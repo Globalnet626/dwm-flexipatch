@@ -1,6 +1,6 @@
 ! special
 *.foreground:   #b9b9b9
-*.background:   #000000
+*.background:   #FFFFFF
 *.cursorColor:  #b9b9b9
 
 ! black
@@ -43,13 +43,37 @@ dwm.normfgcolor:        #FFFFFF
 dwm.selbordercolor:	#E801FC
 dwm.selbgcolor:		#8101C3
 dwm.selfgcolor:		#4F3A5E
+dwm.titlenormfgcolor:#bbbbbb
+dwm.titlenormbgcolor:#222222
+dwm.titlenormbordercolor:        #444444
+dwm.titlenormfloatcolor:         #db8fd9
+dwm.titleselfgcolor:             #eeeeee
+dwm.titleselbgcolor:             #8101C3
+dwm.titleselbordercolor:         #8101C3
+dwm.titleselfloatcolor:          #8101C3
+dwm.tagsnormfgcolor:             #bbbbbb
+dwm.tagsnormbgcolor:             #222222
+dwm.tagsnormbordercolor:         #444444
+dwm.tagsnormfloatcolor:          #db8fd9
+dwm.tagsselfgcolor:              #eeeeee
+dwm.tagsselbgcolor:              #8101C3
+dwm.tagsselbordercolor:          #8101C3
+dwm.tagsselfloatcolor:           #8101C3
+dwm.hidfgcolor:                  #8101C3
+dwm.hidbgcolor:                  #222222
+dwm.hidbordercolor:              #8101C3
+dwm.hidfloatcolor:               #667D77
+dwm.urgfgcolor:                  #bbbbbb
+dwm.urgbgcolor:                  #222222
+dwm.urgbordercolor:              #ff0000
+dwm.urgfloatcolor:               #db8fd9;
 
 
 !! URxvt Appearance
-URxvt.font: xft:JetBrains Mono:style=Regular:size=12
-URxvt.boldFont: xft:JetBrains Mono:style=Bold:size=12
-URxvt.italicFont: xft:JetBrains Mono:style=Italic:size=12
-URxvt.boldItalicfont: xft:JetBrains Mono:style=BoldItalic:size=12
+URxvt.font: xft:JetBrains Mono:styleRegular:size12
+URxvt.boldFont: xft:JetBrains Mono:styleBold:size12
+URxvt.italicFont: xft:JetBrains Mono:styleItalic:size12
+URxvt.boldItalicfont: xft:JetBrains Mono:styleBoldItalic:size12
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
