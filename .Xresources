@@ -1,6 +1,6 @@
 ! special
 *.foreground:   #b9b9b9
-*.background:   #FFFFFF
+*.background:   #3c3c3a
 *.cursorColor:  #b9b9b9
 
 ! black
@@ -12,7 +12,7 @@
 *.color9:       #e801fc
 
 ! green
-*.color2:       #a101c3
+*.color2:       #602788
 *.color10:      #8101c3
 
 ! yellow
@@ -20,15 +20,15 @@
 *.color11:      #9c6f59
 
 ! blue
-*.color4:       #323f5c
-*.color12:      #323f5c
+*.color4:       #fd1356
+*.color12:      #fd1356
 
 ! magenta
 *.color5:       #384894
 *.color13:      #5e6c99
 
 ! cyan
-*.color6:       #4f3a5e
+*.color6:       #7b39aa
 *.color14:      #667d77
 
 ! white
@@ -36,37 +36,38 @@
 *.color15:      #ffffff
 
 
+
 !! DWM Apperance
-dwm.normbordercolor:	#38372C
-dwm.normbgcolor:	#571DC2
-dwm.normfgcolor:        #FFFFFF
-dwm.selbordercolor:	#E801FC
-dwm.selbgcolor:		#8101C3
-dwm.selfgcolor:		#4F3A5E
-dwm.titlenormfgcolor:#bbbbbb
-dwm.titlenormbgcolor:#222222
+dwm.normbordercolor:	         #38372C
+dwm.normbgcolor:	             #571DC2
+dwm.normfgcolor:                 #FFFFFF
+dwm.selbordercolor:	             #E801FC
+dwm.selbgcolor:		             #7B39AA
+dwm.selfgcolor:		             #4F3A5E
+dwm.titlenormfgcolor:            #bbbbbb
+dwm.titlenormbgcolor:            #222222
 dwm.titlenormbordercolor:        #444444
 dwm.titlenormfloatcolor:         #db8fd9
 dwm.titleselfgcolor:             #eeeeee
-dwm.titleselbgcolor:             #8101C3
-dwm.titleselbordercolor:         #8101C3
-dwm.titleselfloatcolor:          #8101C3
+dwm.titleselbgcolor:             #444444
+dwm.titleselbordercolor:         #444444
+dwm.titleselfloatcolor:          #444444
 dwm.tagsnormfgcolor:             #bbbbbb
 dwm.tagsnormbgcolor:             #222222
 dwm.tagsnormbordercolor:         #444444
 dwm.tagsnormfloatcolor:          #db8fd9
 dwm.tagsselfgcolor:              #eeeeee
-dwm.tagsselbgcolor:              #8101C3
-dwm.tagsselbordercolor:          #8101C3
-dwm.tagsselfloatcolor:           #8101C3
-dwm.hidfgcolor:                  #8101C3
+dwm.tagsselbgcolor:              #7B39AA
+dwm.tagsselbordercolor:          #7B39AA
+dwm.tagsselfloatcolor:           #444444
+dwm.hidfgcolor:                  #444444
 dwm.hidbgcolor:                  #222222
-dwm.hidbordercolor:              #8101C3
+dwm.hidbordercolor:              #7B39AA
 dwm.hidfloatcolor:               #667D77
 dwm.urgfgcolor:                  #bbbbbb
 dwm.urgbgcolor:                  #222222
 dwm.urgbordercolor:              #ff0000
-dwm.urgfloatcolor:               #db8fd9;
+dwm.urgfloatcolor:               #db8fd9
 
 
 !! URxvt Appearance
