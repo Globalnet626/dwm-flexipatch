@@ -1,19 +1,19 @@
 ! special
 *.foreground:   #b9b9b9
-*.background:   #3c3c3a
+*.background:   #292927
 *.cursorColor:  #b9b9b9
 
 ! black
 *.color0:       #000000
-*.color8:       #38372c
+*.color8:       #ff00d5
 
 ! red
 *.color1:       #571dc2
 *.color9:       #e801fc
 
 ! green
-*.color2:       #602788
-*.color10:      #8101c3
+*.color2:       #a140e5
+*.color10:      #c102f9
 
 ! yellow
 *.color3:       #6056f7
@@ -28,13 +28,12 @@
 *.color13:      #5e6c99
 
 ! cyan
-*.color6:       #7b39aa
-*.color14:      #667d77
+*.color6:       #bb5cff
+*.color14:      #00ffbc
 
 ! white
 *.color7:       #999999
 *.color15:      #ffffff
-
 
 
 !! DWM Apperance
@@ -67,14 +66,14 @@ dwm.hidfloatcolor:               #667D77
 dwm.urgfgcolor:                  #bbbbbb
 dwm.urgbgcolor:                  #222222
 dwm.urgbordercolor:              #ff0000
-dwm.urgfloatcolor:               #db8fd9
+!!dwm.urgfloatcolor:               #db8fd9
 
 
 !! URxvt Appearance
-URxvt.font: xft:JetBrains Mono:styleRegular:size12
-URxvt.boldFont: xft:JetBrains Mono:styleBold:size12
-URxvt.italicFont: xft:JetBrains Mono:styleItalic:size12
-URxvt.boldItalicfont: xft:JetBrains Mono:styleBoldItalic:size12
+URxvt.font: xft:Mononoki Nerd Font:styleRegular:size12
+URxvt.boldFont: xft:Mononoki Nerd Font:styleBold:size12
+URxvt.italicFont: xft:Mononoki Nerd Font:styleItalic:size12
+URxvt.boldItalicfont: xft:Mononoki Nerd Font:styleBoldItalic:size12
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -109,3 +108,6 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.urlLauncher: firefox
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
+
+Xcursor.size: 16
+
