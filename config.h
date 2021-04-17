@@ -1,5 +1,5 @@
 /* See LICENSE file for copyright and license details. */
-/* gleebs hardware general patch */
+/* gleebs hardware general patch - shits wack its gonna break eventually*/
 static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
 static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
 static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle",  NULL };
@@ -758,14 +758,14 @@ static Key keys[] = {
 	#if KEYMODES_PATCH
 	{ MODKEY,                       XK_Escape,     setkeymode,             {.ui = COMMANDMODE} },
 	#endif // KEYMODES_PATCH
-	{ MODKEY,                       XK_p,          spawn,                  /*{.v = dmenucmd }*/ SHCMD("rofi -show run") },
+	{ MODKEY,                       XK_p,          spawn,                  /*{.v = dmenucmd }*/ SHCMD("rofi -combi-modi run,drun -show combi -modi combi") },
 	{ MODKEY|ShiftMask,             XK_Return,     spawn,                  {.v = termcmd } },
 	{ MODKEY,                       XK_b,          togglebar,              {0} },
 	#if FOCUSMASTER_PATCH
 	{ MODKEY|ControlMask,           XK_space,      focusmaster,            {0} },
 	#endif // FOCUSMASTER_PATCH
 	#if STACKER_PATCH
-	STACKKEYS(MODKEY,                              focus)
+	STACKKEYS(MODKEY,                              focus)sh
 	STACKKEYS(MODKEY|ShiftMask,                    push)
 	#else
 	{ MODKEY,                       XK_j,          focusstack,             {.i = +1 } },
@@ -949,8 +949,8 @@ static Key keys[] = {
 	#endif // SCRATCHPAD_ALT_1_PATCH
 	{ MODKEY,                       XK_comma,      focusmon,               {.i = -1 } },
 	{ MODKEY,                       XK_period,     focusmon,               {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_comma,      tagmon,                 {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_period,     tagmon,                 {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_Left,      tagmon,                 {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_Right,     tagmon,                 {.i = +1 } },
 	#if FOCUSADJACENTTAG_PATCH
 	{ MODKEY,                       XK_Left,       viewtoleft,             {0} },
 	{ MODKEY,                       XK_Right,      viewtoright,            {0} },
@@ -1102,7 +1102,9 @@ static Key keys[] = {
 	{ 0,                       XF86XK_MonBrightnessUp, spawn, SHCMD("xbacklight -inc 10") },
 	{ 0,                       XF86XK_MonBrightnessDown, spawn, SHCMD("xbacklight -dec 10") },	
 	{ 0,                       XK_Print, spawn, SHCMD("scrotxclip.sh") },
-	{ MODKEY,                       XK_Print, spawn, SHCMD("scrotxcliparea.sh") },	
+	{ MODKEY,                       XK_Print, spawn, SHCMD("scrotxcliparea.sh") },
+	{ MODKEY,                       XK_semicolon, spawn, SHCMD("meme.sh") },
+	{ MODKEY,                       XK_backslash, spawn, SHCMD("rot13.sh") },	
 	TAGKEYS(                        XK_1,                                  0)
 	TAGKEYS(                        XK_2,                                  1)
 	TAGKEYS(                        XK_3,                                  2)
